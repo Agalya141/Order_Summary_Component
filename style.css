@@ -18,9 +18,10 @@ body{
     flex-direction:column;
     background-image: url('pattern-background-mobile.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100% auto; 
     min-height:100vh;
     font-family: 'Red Hat Display', sans-serif;
+    background-color:var(--Blue-100);
 }
 .card{
     display:flex;
@@ -122,7 +123,10 @@ body{
     border:none;
     cursor:pointer;
     box-shadow: 0 10px 20px hsl(245, 75%, 52%, 0.25);
-    opacity: 0.9;
+}
+.proceed_button:hover{
+    opacity:0.9;
+    box-shadow: 0 10px 20px hsl(245, 75%, 52%, 0.4);
 }
 .cancel_button{
     display:inline-block;
@@ -140,4 +144,13 @@ body{
 }
 footer{
     margin-top:2rem;
+}
+@media(min-width:32.5rem){
+    body{
+        background-image: url('pattern-background-desktop.svg');
+        background-position: right top;
+    }
+    .card{
+        max-width:28rem;
+    }
 }
