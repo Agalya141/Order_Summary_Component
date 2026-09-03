@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design Screenshot](./Order-Summary-Component_Screenshot.png)
+![Design Screenshot](./Order_Summary_Component_Screenshot.png)
 
 ### Links
 
