@@ -150,7 +150,10 @@ footer{
         background-image: url('pattern-background-desktop.svg');
         background-position: right top;
     }
+    .card_body{
+        padding:2rem;
+    }
     .card{
-        max-width:28rem;
+        max-width:25rem;
     }
 }
